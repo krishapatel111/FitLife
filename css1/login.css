@@ -1,0 +1,105 @@
+/* ===== AUTH PAGES ===== */
+
+.auth-section{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#020817,#020b18);
+}
+
+.auth-box{
+    width:100%;
+    max-width:420px;
+    background:#071426;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 0 40px rgba(0,255,153,0.25);
+    text-align:center;
+}
+
+.auth-box h2{
+    color:#00ff99;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.auth-box p{
+    color:#aaa;
+    margin-bottom:25px;
+}
+
+.auth-box input{
+    width:100%;
+    padding:14px;
+    margin:12px 0;
+    background:#0c1c33;
+    border:none;
+    border-radius:10px;
+    color:white;
+}
+
+.auth-box button{
+    width:100%;
+    padding:14px;
+    background:#00ff99;
+    color:black;
+    border:none;
+    border-radius:30px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+.auth-box button:hover{
+    background:white;
+}
+
+.auth-links{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.auth-links a{
+    color:#00ff99;
+    text-decoration:none;
+    font-size:14px;
+}
+a{
+color:#00ff99;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+/* ===== Validation Styling ===== */
+
+input.error-border,
+select.error-border{
+border:2px solid red !important;
+}
+
+input.success-border,
+select.success-border{
+border:2px solid #00ff99 !important;
+}
+
+.error{
+color:red;
+font-size:14px;
+margin-bottom:10px;
+display:block;
+}
+
+.success{
+color:#00ff99;
+font-size:14px;
+margin-bottom:10px;
+display:block;
+}
+body{
+margin:0;
+padding-top:80px;
+}

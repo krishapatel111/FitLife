@@ -1,0 +1,59 @@
+/* ===== FOOTER ===== */
+
+footer{
+background:linear-gradient(180deg,#020617,#050b25);
+padding:90px 10% 30px;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:40px;
+}
+
+.footer-box h2{
+font-size:36px;
+color:#00ff99;
+margin-bottom:15px;
+}
+
+.footer-box h4{
+margin-bottom:15px;
+color:white;
+}
+
+.footer-box a{
+display:block;
+color:#ccc;
+text-decoration:none;
+margin-bottom:10px;
+transition:0.3s;
+}
+
+.footer-box a:hover{
+color:#00ff99;
+padding-left:6px;
+}
+
+.footer-bottom{
+text-align:center;
+margin-top:50px;
+padding-top:20px;
+border-top:1px solid #222;
+color:#888;
+}
+.footer-box p{
+color:#ccc;
+margin-bottom:10px;
+}
+.footer-box h4{
+margin-bottom:15px;
+color:white;
+font-size:20px;
+}
+
+.footer-box p,
+.footer-box a{
+color:#ccc;
+font-size:15px;
+}

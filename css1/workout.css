@@ -1,0 +1,80 @@
+body{
+background:#020617;
+font-family:Poppins;
+color:white;
+}
+
+/* HERO */
+.workout-hero{
+padding:100px 10% 60px;
+text-align:center;
+background:linear-gradient(180deg,#020617,#050b25);
+}
+
+.workout-hero h1{
+font-size:48px;
+color:#00ff99;
+}
+
+.workout-hero p{
+color:#ccc;
+margin-top:10px;
+}
+
+/* GRID */
+.workout-container{
+padding:80px 10%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+/* CARD */
+.workout-card{
+background:#050b25;
+padding:30px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 0 15px rgba(0,0,0,0.6);
+transition:0.3s;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+min-height:230px;
+}
+
+.workout-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #00ff99;
+}
+
+.workout-card h3{
+color:#00ff99;
+margin-bottom:15px;
+}
+
+.workout-card p{
+color:#ccc;
+margin-bottom:25px;
+}
+
+/* BUTTON */
+.btn-link{
+display:inline-block;
+padding:10px 25px;
+background:#00ff99;
+color:black;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn-link:hover{
+background:white;
+color:black;
+}
+body{
+margin:0;
+padding-top:80px;
+}
